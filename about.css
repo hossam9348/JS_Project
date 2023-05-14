@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: gray;
+}
+
+#nav {
+  position: fixed;
+  background-color: darkgray;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+#added {
+  /* display: inline-block;
+  margin-left: 400px; */
+  background-color: mintcream;
+}
+
+#card {
+  display: inline-block;
+  margin-left: 20px;
+  background-color: mintcream;
+}
+
+.nav {
+  margin-left: 100px;
+}
+
+img {
+  border-radius: 20px;
+  width: 600px;
+  height: 200;
+}
+p {
+  display: inline-block;
+}
+
+#mix {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 20px;
+}
+
+.lorem {
+  background-color: lightgray;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

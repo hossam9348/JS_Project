@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contuct us</title>
+  </head>
+  <body>
+    <div id="nav">
+      <button class="nav" onclick="home()">Home</button>
+      <button class="nav" onclick="about()">About</button>
+      <button class="nav" onclick="contact()">Contact us</button>
+      <div>
+        <label id="added" for="card">Added to card</label>
+        <p id="card"></p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <form>
+      <fieldset>
+        <div id="form">
+          <legend>Contact us</legend>
+          <div>
+            <label for="Name">Name:</label>
+            <input
+              type="text"
+              id="Name"
+              size="20"
+              pattern="[a-z]{1,}"
+              title="Must not contain numbers or spaces"
+              placeholder="Enter your name: Hossam "
+              required
+            />
+          </div>
+
+          <div>
+            <label for=">Email">Email:</label>
+            <input
+              type="email"
+              placeholder="Enter your email: ac5a@fk4"
+              id=">Email"
+              required
+              size="23"
+            />
+          </div>
+
+          <div>
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              title="###-###-####"
+              placeholder="Enter your phone number: ###-###-####"
+              required
+              size="34"
+            />
+          </div>
+
+          <div dir="message">
+            <label for="message">Message:</label>
+            <input
+              type="text"
+              placeholder="Enter your message"
+              id="message"
+              size="50"
+              required
+            />
+          </div>
+
+          <div id="click">
+            <input onclick="ok()" size="10" type="submit" />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+
+    <div class="lorem">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex
+        laudantium placeat! Nobis molestiae nulla ea, sint odio ut. Sequi
+        incidunt suscipit vitae facilis nisi deleniti rerum repellat ipsum?
+        Molestiae? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Minima debitis recusandae quam, expedita commodi illo ipsa, eum, vel
+        praesentium sunt ex consequuntur. Eaque iusto ratione labore, tempore
+        harum laudantium optio. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Distinctio ex laudantium placeat! Nobis molestiae
+        nulla ea, sint odio ut. Sequi incidunt suscipit vitae facilis nisi
+        deleniti rerum repellat ipsum? Molestiae? Lorem ipsum dolor sit amet
+        <br />
+        <br />
+        consectetur, adipisicing elit. Minima debitis recusandae quam, expedita
+        commodi illo ipsa, eum, vel praesentium sunt ex consequuntur. Eaque
+        iusto ratione labore, tempore harum laudantium optio. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Distinctio ex laudantium placeat!
+        Nobis molestiae nulla ea, sint odio ut. Sequi incidunt suscipit vitae
+        facilis nisi deleniti rerum repellat ipsum? Molestiae? Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Minima debitis recusandae quam,
+        expedita commodi illo ipsa, eum, vel praesentium sunt ex consequuntur.
+        Eaque iusto ratione labore, tempore harum laudantium optio.
+        <br />
+        <br />
+        consectetur, adipisicing elit. Minima debitis recusandae quam, expedita
+        commodi illo ipsa, eum, vel praesentium sunt ex consequuntur. Eaque
+        iusto ratione labore, tempore harum laudantium optio. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Distinctio ex laudantium placeat!
+        Nobis molestiae nulla ea, sint odio ut. Sequi incidunt suscipit vitae
+        facilis nisi deleniti rerum repellat ipsum? Molestiae? Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Minima debitis recusandae quam,
+        expedita commodi illo ipsa, eum, vel praesentium sunt ex consequuntur.
+        Eaque iusto ratione labore, tempore harum laudantium optio.
+      </p>
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: mintcream">
+        © 2022 Copyright
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="contact.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="contact.css" />
+  </body>
+</html>
