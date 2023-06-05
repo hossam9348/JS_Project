@@ -14,11 +14,11 @@ function contact() {
 
 var img = document.getElementsByTagName("img");
 var arr = [
-  "antique-book-book-bindings-1005324.jpg",
-  "th (5).jpeg",
-  "58a2e91411e7c85ebc35923b825b12aa.jpg",
-  "th (6).jpeg",
-  "th (7).jpeg",
+  "./images/antique-book-book-bindings-1005324.jpg",
+  "./images/th (5).jpeg",
+  "./images/58a2e91411e7c85ebc35923b825b12aa.jpg",
+  "./images/th (6).jpeg",
+  "./images/th (7).jpeg",
 ];
 
 var index = 1;
